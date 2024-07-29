@@ -1,0 +1,38 @@
+.benefit-text {
+    position: relative;
+    margin-bottom: 15px; /* Espaço entre os parágrafos */
+  }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  #contact-form .text-left {
+    text-align: center; /* Alinha o texto ao centro em telas menores */
+  }
+  
+  #contact-form h2 {
+    font-size: 2rem; /* Ajusta o tamanho da fonte do título */
+  }
+
+  #contact-form input, textarea, button {
+    font-size: 0.875rem; /* Ajusta o tamanho da fonte em telas menores */
+  }
+}
+
+@media (max-width: 480px) {
+  #contact-form .container {
+    padding: 1rem; /* Reduz o padding do container em telas muito pequenas */
+  }
+
+  #contact-form .container {
+    max-width: 90%; /* Largura máxima do container */
+    width: 100%; /* Largura completa em telas pequenas */
+  }
+
+  #contact-form h2 {
+    font-size: 1.5rem; /* Ajusta o tamanho do título para telas muito pequenas */
+  }
+  
+  #contact-form input, textarea, button {
+    font-size: 0.75rem; /* Ajusta o tamanho da fonte em telas muito pequenas */
+  }
+}
