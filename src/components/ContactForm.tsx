@@ -3,6 +3,8 @@ import './ContactForm.css'; // Importar o arquivo de estilo CSS
 import React from 'react';
 
 const ContactForm: React.FC = () => {
+
+
   return (
     <section id="contact-form" className="py-16 bg-white text-center">
       <div className="container mx-auto max-w-3xl bg-gray-100 p-8 shadow-lg rounded-lg relative">
@@ -15,7 +17,7 @@ const ContactForm: React.FC = () => {
           <p className='mt-3'>- Descreva quais alterações deseja em seu site, enviando sempre uma referência.</p>
           <p className='mt-3'>- Não esqueça de enviar o site que deseja alterar.</p>
         </div>
-        <form action="https://formsubmit.co/pedro.vviana@hotmail.com" method="POST" className="space-y-4">
+        <form action="https://api.sheetmonkey.io/form/b9Nsb2XP2tsQxu9ze5zjPc" method="POST" className="space-y-4">
           <input type="text" name='Nome' placeholder="Nome" className="w-full p-3 border rounded"/>
           <input type="text" name='Empresa' placeholder="Nome da empresa" className="w-full p-3 border rounded"/>
           <input type="email" name='Email' placeholder="Email" className="w-full p-3 border rounded"/>
